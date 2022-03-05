@@ -1,0 +1,20 @@
+{
+  "name": "flowjs",
+  "version": "1.0.0",
+  "description": "sample flow app",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-flow": "^7.16.7"
+  },
+  "dependencies": {
+    "flow-bin": "^0.173.0"
+  }
+}
